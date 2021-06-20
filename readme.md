@@ -1,6 +1,18 @@
+
 # Game Boy Camera Wifi Photo Extractor
 I’ve had my Game Boy Camera since the ‘90s: it was my first digital camera, and I love it.
-I worked out a long-winded way to get photos off it about 12 years ago, but not easily while out and about!
+I worked out a long-winded way to get photos off it about 12 years ago, but it's not easy to do while out and about, so I made this!
+
+## How it works
+
+ 1. Plug in Game Boy Camera.
+ 2. Turn it on.
+ 3. Wait a minute.
+ 4. Connect to the GameboyCamera wifi network.
+ 5. Go to http://gameboy.local
+ 6. All your photos will be visible on the webpage, and can be downloaded!
+ 7. Turn it off.
+
 ## Inside the 3D Printed Case
  - [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
  - [InsideGadgets GBxCart RW v1.0a](https://www.gbxcart.com/)
