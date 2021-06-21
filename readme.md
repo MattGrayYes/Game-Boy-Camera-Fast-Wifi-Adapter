@@ -1,4 +1,4 @@
-# Game Boy Camera Fast Wifi Gallery
+# Game Boy Camera Fast Wifi Adapter
 Plug in your Game Boy Camera, turn it on, and you can have the photos on your phone in under 2 minutes!
 
 ## Why I Made It & What I Used Before
