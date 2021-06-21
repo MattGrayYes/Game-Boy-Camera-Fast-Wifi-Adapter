@@ -1,8 +1,23 @@
+# Game Boy Camera Fast Wifi Gallery
+Plug in your Game Boy Camera, turn it on, and you can have the photos on your phone in under 2 minutes!
 
-# Game Boy Camera Wifi Photo Extractor
+## Why I Made It & What I Used Before
 I’ve had my Game Boy Camera since the ‘90s: it was my first digital camera, and I love it.
 
-I worked out a long-winded way to get photos off it about 12 years ago, but it's not easy to do while out and about, so I made this!
+It can take and store 30 photos, but provides no way of taking the photos off it, other than deleting or printing with the Game Boy Printer. (That's '90s technology for you!)
+
+Around 2013, I worked out a long-winded way to get photos off it onto my Mac using a 
+[Mega Memory](https://amzn.to/3qkxBq7) and 
+[GB EMS USB Smart Card](https://www.retromodding.com/products/gb-ems-usb-64m-smart-card).
+This method was very fiddly and regularly took multiple attempts to work, and wasn't really portable.
+
+I'd seen other portable devices before, but they all relied on emulating the Game Boy Printer and printing each photo one-by-one, which took even longer than fiddling with the Mega Memory!
+
+In 2018 I found [InsideGadgets' GBxCart RW](https://www.gbxcart.com/), a USB Game Boy Cartridge Reader. This made the transfer so much easier, but it still wasn't portable because it requires a computer.
+
+Months later, I had a brainwave: A [Raspberry Pi Zero](https://www.raspberrypi.org/products/raspberry-pi-zero-w/) is a computer! It's easily pocketable and battery powerable, and the GBxCart RW has linux support too! I got this kind of working, but it still required carrying around a jumble of cables.
+
+The final piece of the puzzle came in December 2020 when [I got my first 3D Printer](https://www.youtube.com/watch?v=37BOSv3g0ls). I realised I could put this all together into one device, in one box, and this is what I ended up with!
 
 ## How it works
 
