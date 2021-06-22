@@ -64,6 +64,8 @@ I'm not saying I'll ever make a v2, but if I did, this is where I'd start:
  - This is the first case I've ever 3D modelled, so it can probably be made a bit more compact. I was however aiming to make this no thicker than a phone.
 
 ### RTC
-The Raspberry Pi doesn't keep time when it's turned off because it doesn't have a Real Time Clock, and I didn't want to wedge an external RTC into the box.
+The Raspberry Pi doesn't keep time when it's turned off because it doesn't have a Real Time Clock.
 
-GBCamera_Saver is saving the photos into folders labelled with the date/time. It still seems to work, but this may cause a problem if it tries to create a folder with the same name again because "time is repeating itself"
+GBCamera_Saver is saving the photos into folders labelled with the date/time. It still seems to work, but this may cause a problem if it tries to create a folder with the same name again because "time is repeating itself". 
+
+You can get RTCs from hobby shops, specifically designed for integrating into Raspberry Pi projects. 
