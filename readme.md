@@ -29,7 +29,7 @@ The final piece of the puzzle came in December 2020 when [I got my first 3D Prin
  6. All your photos will be visible on the webpage, and can be downloaded!
  7. Turn it off.
 
-## Inside the 3D Printed Case
+### Inside the 3D Printed Case
  - [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
  - [InsideGadgets GBxCart RW v1.0a](https://www.gbxcart.com/)
  - [Adafruit Micro Lipo](https://www.adafruit.com/product/1904)
@@ -37,25 +37,33 @@ The final piece of the puzzle came in December 2020 when [I got my first 3D Prin
  - [USB Micro - USB Micro OTG cable](https://thepihut.com/products/micro-usb-to-micro-usb-otg-cable-10-12-25-30cm-long), shortened. (Possibly not this exact cable)
  - [Latching Torch Switch](https://www.ebay.co.uk/itm/184567179734?hash=item2af90fa9d6:g:x~IAAOSwrU1a~j8y)
 
-## On The Pi
-### Photo Downloader
+### On The Pi
+#### Photo Downloader
  - /home/pi/get_photos.sh is set to run automatically on boot, by being included in /etc/rc.local
  - This script runs [GBxCart_RW_GBCamera_Saver_v1.8](https://github.com/insidegadgets/GBxCart-RW/tree/master/Interface_Programs)
  - And saves the photos inside /var/www/html/photos, so the web page can see them
 
-### Web Page
+#### Web Page
  - Apache 2 web server with PHP 7
  - Files stored in /var/www/html/
  - index.php displays the photos in ./photos/, grouped by subfolder.
 
-### Wifi Network
+#### Wifi Network
 The Raspberry Pi hosts a wifi access point called GameboyCamera
 
  - Uses hostapd
  - Configured in /etc/hostapd/hostapd.conf
  - I'm not sure if just installing and creating that file is enough to make it work, I didn't make notes as I did it annoyingly.
 
-### Issues
+## Future Improvements
+I'm not saying I'll ever make a v2, but if I did, this is where I'd start:
+
+### Shape & Size
+ - It would be nice if the cartridge slot was both full length, to stop the camera looking so dorky sticking out of it
+ - I'd like to key the cartridge slot so you can't put the cart in back-to-front by accident
+ - This is the first case I've ever 3D modelled, so it can probably be made a bit more compact. I was however aiming to make this no thicker than a phone.
+
+### RTC
 The Raspberry Pi doesn't keep time when it's turned off because it doesn't have a Real Time Clock, and I didn't want to wedge an external RTC into the box.
 
 GBCamera_Saver is saving the photos into folders labelled with the date/time. It still seems to work, but this may cause a problem if it tries to create a folder with the same name again because "time is repeating itself"
