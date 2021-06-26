@@ -1,7 +1,9 @@
 # Game Boy Camera Fast Wifi Adapter
 Plug in your Game Boy Camera, turn it on, and you can have the photos on your phone in under 2 minutes!
 
-## Why I Made It & What I Used Before
+![](https://raw.githubusercontent.com/MattGrayYes/Game-Boy-Camera-Fast-Wifi-Adapter/main/photos/Game%20Boy%20Camera%20WiFi%20Photo%20Adapter%201.png)
+
+## Why I Made It, and What I Used Before
 I’ve had my Game Boy Camera since the ‘90s: it was my first digital camera, and I love it.
 
 It can take and store 30 photos, but provides no way of taking the photos off it, other than deleting or printing with the Game Boy Printer. (That's '90s technology for you!)
