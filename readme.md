@@ -1,7 +1,7 @@
 # Game Boy Camera Fast Wifi Adapter
 Plug in your Game Boy Camera, turn it on, and you can have the photos on your phone in under 2 minutes!
 
-![](https://raw.githubusercontent.com/MattGrayYes/Game-Boy-Camera-Fast-Wifi-Adapter/main/photos/Game%20Boy%20Camera%20WiFi%20Photo%20Adapter%201.png)
+[<img src="https://raw.githubusercontent.com/MattGrayYes/Game-Boy-Camera-Fast-Wifi-Adapter/main/photos/yt_player_sshot.jpg" alt="|Screenshot of youtube player, with photo of me holding the box" width="50%"></img>](https://www.youtube.com/watch?v=BfbQgHBbU1A)
 
 ## Why I Made It, and What I Used Before
 I’ve had my Game Boy Camera since the ‘90s: it was my first digital camera, and I love it.
@@ -71,3 +71,8 @@ The Raspberry Pi doesn't keep time when it's turned off because it doesn't have 
 GBCamera_Saver is saving the photos into folders labelled with the date/time. It still seems to work, but this may cause a problem if it tries to create a folder with the same name again because "time is repeating itself". 
 
 You can get RTCs from hobby shops, specifically designed for integrating into Raspberry Pi projects. 
+
+## Photos
+<img src="https://raw.githubusercontent.com/MattGrayYes/Game-Boy-Camera-Fast-Wifi-Adapter/main/photos/Game%20Boy%20Camera%20WiFi%20Photo%20Adapter%201.png" alt="me holding the Game Boy Camera Fast Wifi Adapter" width="75%"></img>
+
+<img src="https://raw.githubusercontent.com/MattGrayYes/Game-Boy-Camera-Fast-Wifi-Adapter/main/photos/Game%20Boy%20Camera%20WiFi%20Photo%20Adapter%202.png" alt="Game Boy Camera Fast Wifi Adapter in use, next to phone showing its webpage" width="75%"></img>
