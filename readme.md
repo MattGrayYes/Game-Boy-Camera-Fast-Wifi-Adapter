@@ -42,7 +42,8 @@ The final piece of the puzzle came in December 2020 when [I got my first 3D Prin
 ### On The Pi
 #### Photo Downloader
  - /home/pi/get_photos.sh is set to run automatically on boot, by being included in /etc/rc.local
- - This script runs [GBxCart_RW_GBCamera_Saver_v1.8](https://github.com/insidegadgets/GBxCart-RW/tree/master/Interface_Programs).
+ - get_photos.sh runs [GBxCart_RW_GBCamera_Saver_v1.8](https://github.com/insidegadgets/GBxCart-RW/tree/master/Interface_Programs).
+     - This works by extracting the save data out of the cartridge, finding the photos within it, and exporting them as bitmaps.
  - And saves the photos inside /var/www/html/photos, so the web page can see them.
 
 #### Web Page
